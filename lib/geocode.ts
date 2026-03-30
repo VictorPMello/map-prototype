@@ -18,7 +18,7 @@ export async function getLatLngFromAddress(address: string) {
   const location = data.results[0].geometry.location;
 
   return {
-    lat: location.lat,
-    lng: location.lng,
+    lat: location.lat.toString(),
+    lng: location.lng.toString(),
   };
 }

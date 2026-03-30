@@ -36,7 +36,7 @@ export default function PropertyForm() {
       {/* BOTÃO ABRIR */}
       <button
         onClick={() => setOpen(true)}
-        className="px-4 py-2 bg-black text-white rounded-xl"
+        className="fixed top-5 left-5  px-4 py-2 bg-black text-white rounded-xl"
       >
         Novo Imóvel
       </button>
